@@ -1,6 +1,6 @@
 # Dehashed-web-parser
 
-A python script tool to leverage the web-interface of Dehashed Free Edition to provide results in an API format - similar to the official Json Formart (pay-walled) 
+A python script tool to leverage the web-interface of Dehashed Free Edition to provide results in an API format - similar to the official Json Format (pay-walled) 
 
 ## Requirements
 
