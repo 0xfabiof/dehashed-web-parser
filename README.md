@@ -13,3 +13,7 @@ A python script tool to leverage the web-interface of Dehashed Free Edition to p
 ```
 python2 dehashed.py <valid session_id> <query>
 ```
+
+## Todo:
+
+* Add more than first 10 results parsing
