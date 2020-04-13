@@ -34,9 +34,15 @@ try:
 	for i in arrayOfDataEntryIds:
 		result = subprocess.check_output(['curl','-s','https://www.dehashed.com/search/'+i,'-H','Cookie: mysession='+session_id])
 		final_results.append(result)
+	print('[')
+	for k in final_results[:-1]:
+		entry = k.strip('\n')
+		print(entry[9:-16]+',')
 
-	for k in final_results:
-		print(k)
+	for l in final_results[-1:]:
+		entry = l.strip('\n')
+		print(entry[9:-16])
+	print(']')
 
 except:
 	print('Error - usage: python2 dehashed.py <valid session_id> <query>')
