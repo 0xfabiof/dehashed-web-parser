@@ -1,12 +1,13 @@
 # Dehashed-web-parser
 
-A python script tool to leverage the web-interface of Dehashed Free Edition to provide results in an API format - similar to the official Json Formart (pay-walled) 
+A python script tool to leverage the web-interface of Dehashed Free Edition to provide results in an API format - similar to the official Json Format (pay-walled) 
 
 ## Requirements
 
 * Python 2
 * Curl
-* A valid session_id (you can retrieve it by logging in to Dehashed and retrieving the "mysession" cookie.
+* Dehashed.com account
+* A valid session_id (you can retrieve it by logging in to Dehashed and retrieving the "mysession" cookie)
 
 ## Usage
 
